@@ -7,7 +7,7 @@
     background-color: yellow;
 }
 
-button{
+.but1, .but2{
     font-family: 'helvetica','Times New Roman', sans-serif ;
     font-size: 28px;
 }
