@@ -67,3 +67,38 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* SOLUTION */
+
+/* using borders and background color to identify the elements, how they cover the spacing. */
+
+.modal {
+  display: flex;   /* display flex default horizontal */
+  gap: 16px;
+  padding: 16px;
+  border: 5px solid;
+  background: lightcyan;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+  border: 5px solid;
+}
+/* header container should be wrapped around the button element as well in order for flex style to work */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  border: 5px solid;
+  background: lightgrey;
+}
+
+.text {
+  margin-bottom: 16px;
+  border: 5px solid;
+  background: lightblue;
+}
